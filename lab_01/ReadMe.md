@@ -99,7 +99,7 @@ lab_01/
 │   ├── top_value_books.png
 │   └── wordcloud.png
 │
-├── lab_01/
+├──scrapy_project/
 │   └── spiders/
 │       └── book_spider.py
 │
