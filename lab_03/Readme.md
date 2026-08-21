@@ -2,7 +2,7 @@
 
 **Name:** Shaikh Mohammed Wasim  
 **Student ID:** 202618007  
-**Course:** Fundamentals of Machine Learning (Lab 3)
+**Course:** Fundamentals of Machine Learning (DS605)
 
 ## Dataset
 
