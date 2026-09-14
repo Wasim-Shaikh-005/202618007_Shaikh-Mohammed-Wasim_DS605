@@ -2,6 +2,7 @@
 
 **Name:** Shaikh Mohammed Wasim  
 **Student ID:** 202618007  
+**Project:** [Airbnb Price Prediction — Streamlit App](https://202618007shaikh-mohammed-wasimds605-oty899wsgqgrhklxmjiuru.streamlit.app/)  
 **Course:** Fundamentals of Machine Learning (DS605)
 
 ## Project Overview
