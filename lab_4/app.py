@@ -2,13 +2,14 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+from pathlib import Path
 
 st.set_page_config(page_title="Airbnb Price Predictor", page_icon="🏠")
+
 @st.cache_resource
 def load_model():
-    return joblib.load("airbnb_price_pipeline.joblib")
-model=load_model()
-
+    model_path = Path(__file__).parent / "airbnb_price_pipeline.joblib"
+    return joblib.load(model_path)
 st.title("🏠 Airbnb Nightly Price Predictor")
 st.write("Enter listing details to estimate the nightly Airbnb price.")
 
