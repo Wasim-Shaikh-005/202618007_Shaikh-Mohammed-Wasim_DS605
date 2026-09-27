@@ -124,14 +124,12 @@ Implemented using only **NumPy and Pandas**.
 
 # Execution Time
 
-| Model | Implementation | Training (s) | Prediction (s) |
+| Model | Implementation | Training Time (s) | Prediction Time (s) |
 |---|---|---:|---:|
-| Linear Regression | Scikit-learn | 0.0150 | 0.0054 |
-| Linear Regression | Manual | 0.0012 | 0.0002 |
-| Logistic Regression | Scikit-learn | 0.0117 | 0.0037 |
-| Logistic Regression | Manual | ~0.17–0.23 | ~0.0001–0.0002 |
-
-**Note:** Manual Linear Regression timing measures model computation on already-preprocessed arrays, whereas the Scikit-learn timing includes pipeline preprocessing. Therefore, the timings are not strictly equivalent end-to-end.
+| Linear Regression | Scikit-learn | 0.009663 | 0.000051 |
+| Linear Regression | Manual | 0.008883 | 0.000051 |
+| Logistic Regression | Scikit-learn | 0.019332 | 0.003746 |
+| Logistic Regression | Manual | 0.203106 | 0.000084 |
 
 ---
 
